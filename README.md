@@ -8,7 +8,7 @@ The implementation follows a **modular and highly configurable design**, allowin
 ## Core Components
 
 ### Top-Level
-- **`safe_start_generator.{h,cpp}`**  Implements the main search loop of the pipeline. It coordinates testing, verification, condition refinement, and termination checks.
+- [**`safe_start_generator.{h,cpp}`**](/safe_start_generator/safe_start_generator.cpp)  Implements the main search loop of the pipeline. It coordinates testing, verification, condition refinement, and termination checks.
 - **`start_generation_statistics.{h,cpp}`** Collection and export of global and per-iteration statistics.
 
 ### `verification_methods/`
