@@ -43,10 +43,12 @@ The pipeline alternates between **testing** and **verification** modes:
    - Executes the neural policy in simulation.
    - Identifies unsafe execution paths.
    - Refines the start and unsafety conditions if unsafe states are found.
+   - If approximation is enabled, it will attempt to approximate the set of unsafe states found.
 
 3. **Verification Phase**
    - Applies the selected formal verification method.
    - If unsafe states are found, conditions are strengthened accordingly.
+   - If approximation is enabled, it will attempt to approximate the set of unsafe states found.
 
 4. **Termination Check**
    - The refined start condition is sampled.
