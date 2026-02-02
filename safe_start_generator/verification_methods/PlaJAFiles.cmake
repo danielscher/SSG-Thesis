@@ -1,0 +1,11 @@
+set(STRENGTHENING_METHODS_SOURCES
+        ${CMAKE_CURRENT_LIST_DIR}/invariant_strengthening.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/invariant_strengthening.h
+        ${CMAKE_CURRENT_LIST_DIR}/verification_method.h
+        ${CMAKE_CURRENT_LIST_DIR}/verification_method_factory.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/verification_method_factory.h
+        ${CMAKE_CURRENT_LIST_DIR}/verification_types.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/verification_types.h
+        ${CMAKE_CURRENT_LIST_DIR}/start_condition_strengthening.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/start_condition_strengthening.h
+)
